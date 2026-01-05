@@ -1,0 +1,12 @@
+langchain==1.0.0
+langchain_community==1.0.1
+langchain_huggingface==1.0.1
+transformers==4.35.0
+faiss-cpu==1.7.4
+pypdf==4.2.0
+huggingface_hub
+sentence-transformers
+flask
+python-dotenv
+langchain_classic
+langchain-groq

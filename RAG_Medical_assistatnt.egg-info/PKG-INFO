@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: RAG-Medical-assistatnt
+Version: 0.1
+Summary: RAG Medical healthcare services assistant
+Author: Batch 04 - Final Project
+Requires-Dist: langchain==1.0.0
+Requires-Dist: langchain_community==1.0.1
+Requires-Dist: langchain_huggingface==1.0.1
+Requires-Dist: transformers==4.35.0
+Requires-Dist: faiss-cpu==1.7.4
+Requires-Dist: pypdf==4.2.0
+Requires-Dist: huggingface_hub
+Requires-Dist: sentence-transformers
+Requires-Dist: flask
+Requires-Dist: python-dotenv
+Requires-Dist: langchain_classic
+Requires-Dist: langchain-groq
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

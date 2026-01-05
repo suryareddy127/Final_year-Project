@@ -1,0 +1,182 @@
+2025-12-28 12:14:33,446 - INFO - Starting process to load, split, and store PDF documents.
+2025-12-28 12:14:33,448 - INFO - Loading PDF files from directory: data/
+2025-12-28 12:14:50,729 - INFO - Loaded 759 documents from PDF files.
+2025-12-28 12:14:50,730 - INFO - Splitting documents into smaller chunks.
+2025-12-28 12:14:50,895 - INFO - Splited documents into 7080 chunks.
+2025-12-28 12:14:50,895 - ERROR - Error in processing and storing PDF documents: save_faiss_vectorstore() missing 1 required positional argument: 'embedding_model' | Error: None | File: E:\final_project\mainfile\components\dataloader.py | Line: 18
+2025-12-28 12:19:26,036 - INFO - Starting process to load, split, and store PDF documents.
+2025-12-28 12:19:26,039 - INFO - Loading PDF files from directory: data/
+2025-12-28 12:19:56,957 - INFO - Loaded 759 documents from PDF files.
+2025-12-28 12:19:56,958 - INFO - Splitting documents into smaller chunks.
+2025-12-28 12:19:57,202 - INFO - Splited documents into 7080 chunks.
+2025-12-28 12:19:57,202 - INFO - Generating your new vectorstore
+2025-12-28 12:19:57,202 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 12:19:57,233 - INFO - Use pytorch device_name: cpu
+2025-12-28 12:19:57,233 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 12:20:01,440 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-12-28 12:20:31,049 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 12:25:21,976 - INFO - Loading faiss with AVX512 support.
+2025-12-28 12:25:21,977 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-12-28 12:25:21,978 - INFO - Loading faiss with AVX2 support.
+2025-12-28 12:25:24,424 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-28 12:25:24,796 - INFO - Saving vectorstoree
+2025-12-28 12:25:24,973 - INFO - Vectostore saved sucesfulyy...
+2025-12-28 12:25:24,983 - INFO - Process completed successfully.
+2025-12-28 14:33:33,404 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 14:33:33,427 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 14:35:22,236 - INFO - 127.0.0.1 - - [28/Dec/2025 14:35:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-12-28 14:35:22,424 - INFO - 127.0.0.1 - - [28/Dec/2025 14:35:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-28 14:35:22,458 - INFO - 127.0.0.1 - - [28/Dec/2025 14:35:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-28 14:35:22,566 - INFO - 127.0.0.1 - - [28/Dec/2025 14:35:22] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=kCNXXa6zif0CHS7GLbOU HTTP/1.1" 200 -
+2025-12-28 14:35:22,595 - INFO - 127.0.0.1 - - [28/Dec/2025 14:35:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-28 14:36:17,796 - INFO -  * To enable the debugger you need to enter the security pin:
+2025-12-28 14:36:17,796 - INFO -  * Debugger pin code: 106-837-917
+2025-12-28 14:36:17,797 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:17] "GET /?__debugger__=yes&cmd=printpin&s=kCNXXa6zif0CHS7GLbOU HTTP/1.1" 200 -
+2025-12-28 14:36:22,830 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-12-28 14:36:22,850 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-28 14:36:22,852 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-28 14:36:22,876 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=kCNXXa6zif0CHS7GLbOU HTTP/1.1[0m" 304 -
+2025-12-28 14:36:22,918 - INFO - 127.0.0.1 - - [28/Dec/2025 14:36:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-28 14:38:08,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 14:38:08,654 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 14:38:34,694 - INFO - 127.0.0.1 - - [28/Dec/2025 14:38:34] "GET / HTTP/1.1" 200 -
+2025-12-28 14:38:34,944 - INFO - 127.0.0.1 - - [28/Dec/2025 14:38:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-28 14:38:58,748 - INFO - 127.0.0.1 - - [28/Dec/2025 14:38:58] "POST / HTTP/1.1" 200 -
+2025-12-28 14:39:43,429 - INFO - 127.0.0.1 - - [28/Dec/2025 14:39:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-28 14:40:03,657 - INFO - 127.0.0.1 - - [28/Dec/2025 14:40:03] "GET / HTTP/1.1" 200 -
+2025-12-28 14:40:18,611 - INFO - 127.0.0.1 - - [28/Dec/2025 14:40:18] "POST / HTTP/1.1" 200 -
+2025-12-28 14:41:12,840 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:12] "GET / HTTP/1.1" 200 -
+2025-12-28 14:41:15,554 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:15] "GET / HTTP/1.1" 200 -
+2025-12-28 14:41:19,000 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:19] "GET / HTTP/1.1" 200 -
+2025-12-28 14:41:19,902 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:19] "GET / HTTP/1.1" 200 -
+2025-12-28 14:41:20,439 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:20] "GET / HTTP/1.1" 200 -
+2025-12-28 14:41:20,742 - INFO - 127.0.0.1 - - [28/Dec/2025 14:41:20] "GET / HTTP/1.1" 200 -2025-12-28 14:44:51,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 14:44:51,268 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 14:45:05,511 - INFO - 127.0.0.1 - - [28/Dec/2025 14:45:05] "GET / HTTP/1.1" 200 -
+2025-12-28 14:46:05,868 - INFO - loading vectorstore 
+2025-12-28 14:46:05,869 - INFO - Loading FAISS vector store from disk.
+2025-12-28 14:46:05,869 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 14:46:53,328 - INFO - Use pytorch device_name: cpu
+2025-12-28 14:46:53,329 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 14:47:01,619 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 14:47:01,619 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 14:47:01,756 - INFO - Loading faiss with AVX512 support.
+2025-12-28 14:47:01,757 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-12-28 14:47:01,757 - INFO - Loading faiss with AVX2 support.
+2025-12-28 14:47:02,654 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-28 14:47:02,996 - INFO - Loading HuggingFace LLM.
+2025-12-28 14:47:03,076 - ERROR - Error loading HuggingFace LLM: 1 validation error for HuggingFaceHub
+  Value error, Did not find huggingfacehub_api_token, please add an environment variable `HUGGINGFACEHUB_API_TOKEN` which contains it, or pass `huggingfacehub_api_token` as a named parameter. [type=value_error, input_value={'repo_id': 'mistralai/Mi...nt': None, 'task': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error | Error: None | File: E:\final_project\mainfile\components\llm.py | Line: 14
+2025-12-28 14:47:03,082 - ERROR - Error creating Retrieval QA chain: LLM could not be loaded. | Error: None | File: Unknown File | Line: Unknown Line | Error: None | File: E:\final_project\mainfile\components\retreive.py | Line: 63
+2025-12-28 14:47:03,088 - INFO - 127.0.0.1 - - [28/Dec/2025 14:47:03] "POST / HTTP/1.1" 200 -
+2025-12-28 14:56:58,986 - INFO - loading vectorstore 
+2025-12-28 14:56:59,038 - INFO - Loading FAISS vector store from disk.
+2025-12-28 14:56:59,043 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 14:56:59,263 - INFO - Use pytorch device_name: cpu
+2025-12-28 14:56:59,264 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 14:57:08,243 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 14:57:08,243 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 14:57:08,710 - INFO - Loading HuggingFace LLM.
+2025-12-28 15:03:15,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 15:03:15,511 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 15:03:35,859 - INFO - 127.0.0.1 - - [28/Dec/2025 15:03:35] "GET / HTTP/1.1" 200 -
+2025-12-28 15:03:54,116 - INFO - loading vectorstore 
+2025-12-28 15:03:54,117 - INFO - Loading FAISS vector store from disk.
+2025-12-28 15:03:54,117 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 15:04:36,535 - INFO - Use pytorch device_name: cpu
+2025-12-28 15:04:36,535 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 15:04:44,740 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 15:04:44,741 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 15:04:44,904 - INFO - Loading faiss with AVX512 support.
+2025-12-28 15:04:44,905 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-12-28 15:04:44,906 - INFO - Loading faiss with AVX2 support.
+2025-12-28 15:04:45,744 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-28 15:04:46,064 - ERROR - Error creating Retrieval QA chain: load_llm() got an unexpected keyword argument 'hugginface_repo_id' | Error: None | File: E:\final_project\mainfile\components\retreive.py | Line: 60
+2025-12-28 15:04:46,096 - INFO - 127.0.0.1 - - [28/Dec/2025 15:04:46] "POST / HTTP/1.1" 200 -
+2025-12-28 15:05:10,596 - INFO - 127.0.0.1 - - [28/Dec/2025 15:05:10] "GET / HTTP/1.1" 200 -
+2025-12-28 15:05:26,713 - INFO - loading vectorstore 
+2025-12-28 15:05:26,713 - INFO - Loading FAISS vector store from disk.
+2025-12-28 15:05:26,714 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 15:05:26,717 - INFO - Use pytorch device_name: cpu
+2025-12-28 15:05:26,717 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 15:05:32,034 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 15:05:32,035 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 15:05:32,170 - ERROR - Error creating Retrieval QA chain: load_llm() got an unexpected keyword argument 'hugginface_repo_id' | Error: None | File: E:\final_project\mainfile\components\retreive.py | Line: 60
+2025-12-28 15:05:32,181 - INFO - 127.0.0.1 - - [28/Dec/2025 15:05:32] "POST / HTTP/1.1" 200 -
+2025-12-28 15:25:34,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 15:25:34,509 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 15:26:55,807 - INFO - 127.0.0.1 - - [28/Dec/2025 15:26:55] "GET / HTTP/1.1" 200 -
+2025-12-28 15:27:06,548 - INFO - Loading vector store for context
+2025-12-28 15:27:06,548 - INFO - Loading FAISS vector store from disk.
+2025-12-28 15:27:06,549 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 15:27:36,220 - INFO - Use pytorch device_name: cpu
+2025-12-28 15:27:36,220 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 15:27:45,274 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 15:27:45,275 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 15:27:45,349 - INFO - Loading faiss with AVX512 support.
+2025-12-28 15:27:45,350 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-12-28 15:27:45,350 - INFO - Loading faiss with AVX2 support.
+2025-12-28 15:27:46,358 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-28 15:27:46,651 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-12-28 15:27:49,681 - INFO - LLM loaded successfully from Groq.
+2025-12-28 15:27:49,761 - INFO - Successfully created the QA chain
+2025-12-28 15:27:49,792 - INFO - 127.0.0.1 - - [28/Dec/2025 15:27:49] "POST / HTTP/1.1" 200 -
+2025-12-28 15:33:52,018 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 15:33:52,055 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 15:34:54,188 - INFO - 127.0.0.1 - - [28/Dec/2025 15:34:54] "GET / HTTP/1.1" 200 -
+2025-12-28 15:35:11,693 - INFO - Loading vector store for context
+2025-12-28 15:35:11,694 - INFO - Loading FAISS vector store from disk.
+2025-12-28 15:35:11,694 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 15:35:40,385 - INFO - Use pytorch device_name: cpu
+2025-12-28 15:35:40,386 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 15:35:47,840 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 15:35:47,841 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 15:35:47,871 - INFO - Loading faiss with AVX512 support.
+2025-12-28 15:35:47,872 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-12-28 15:35:47,872 - INFO - Loading faiss with AVX2 support.
+2025-12-28 15:35:48,925 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-28 15:35:49,252 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-12-28 15:35:53,760 - INFO - LLM loaded successfully from Groq.
+2025-12-28 15:35:53,840 - INFO - Successfully created the QA chain
+2025-12-28 15:35:53,877 - INFO - 127.0.0.1 - - [28/Dec/2025 15:35:53] "POST / HTTP/1.1" 200 -
+2025-12-28 15:37:29,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-12-28 15:37:29,279 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-28 15:37:43,326 - INFO - 127.0.0.1 - - [28/Dec/2025 15:37:43] "GET / HTTP/1.1" 200 -
+2025-12-28 15:37:51,711 - INFO - Loading vector store for context
+2025-12-28 15:37:51,719 - INFO - Loading FAISS vector store from disk.
+2025-12-28 15:37:51,721 - INFO - Initializing HuggingFace Embeddings.
+2025-12-28 15:37:51,878 - INFO - Use pytorch device_name: cpu
+2025-12-28 15:37:51,880 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-28 15:38:00,585 - INFO - HuggingFace Embeddings initialized successfully.
+2025-12-28 15:38:00,585 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2025-12-28 15:38:00,811 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-12-28 15:38:01,457 - INFO - LLM loaded successfully from Groq.
+2025-12-28 15:38:01,464 - INFO - Successfully created the QA chain
+2025-12-28 15:38:01,475 - INFO - 127.0.0.1 - - [28/Dec/2025 15:38:01] "POST / HTTP/1.1" 200 -
