@@ -1,0 +1,317 @@
+2026-01-12 15:14:48,392 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.107.235.151:5000
+2026-01-12 15:14:48,393 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 15:15:02,056 - INFO - 10.107.235.151 - - [12/Jan/2026 15:15:02] "GET / HTTP/1.1" 200 -
+2026-01-12 15:15:02,297 - INFO - 10.107.235.151 - - [12/Jan/2026 15:15:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-12 15:15:09,362 - INFO - 127.0.0.1 - - [12/Jan/2026 15:15:09] "GET / HTTP/1.1" 200 -
+2026-01-12 15:15:09,647 - INFO - 127.0.0.1 - - [12/Jan/2026 15:15:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-12 15:16:00,778 - INFO - Loading vector store for context
+2026-01-12 15:16:00,778 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:16:00,779 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:16:47,226 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:16:47,227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:16:56,026 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:16:56,027 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:16:56,149 - INFO - Loading faiss with AVX512 support.
+2026-01-12 15:16:56,149 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-01-12 15:16:56,150 - INFO - Loading faiss with AVX2 support.
+2026-01-12 15:16:57,379 - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-12 15:16:57,853 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:17:02,757 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:17:02,820 - INFO - Successfully created the QA chain
+2026-01-12 15:17:05,722 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:17:05,807 - INFO - 127.0.0.1 - - [12/Jan/2026 15:17:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:17:05,827 - INFO - 127.0.0.1 - - [12/Jan/2026 15:17:05] "GET / HTTP/1.1" 200 -
+2026-01-12 15:17:36,191 - INFO - Loading vector store for context
+2026-01-12 15:17:36,191 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:17:36,191 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:17:36,198 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:17:36,199 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:17:42,506 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:17:42,506 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:17:42,590 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:17:43,605 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:17:43,606 - INFO - Successfully created the QA chain
+2026-01-12 15:17:44,406 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:17:44,421 - INFO - 127.0.0.1 - - [12/Jan/2026 15:17:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:17:44,439 - INFO - 127.0.0.1 - - [12/Jan/2026 15:17:44] "GET / HTTP/1.1" 200 -
+2026-01-12 15:18:29,550 - INFO - Loading vector store for context
+2026-01-12 15:18:29,551 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:18:29,551 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:18:29,556 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:18:29,557 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:18:35,638 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:18:35,639 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:18:35,788 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:18:38,236 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:18:38,237 - INFO - Successfully created the QA chain
+2026-01-12 15:18:39,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:18:39,132 - INFO - 127.0.0.1 - - [12/Jan/2026 15:18:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:18:39,145 - INFO - 127.0.0.1 - - [12/Jan/2026 15:18:39] "GET / HTTP/1.1" 200 -
+2026-01-12 15:24:14,065 - INFO - 127.0.0.1 - - [12/Jan/2026 15:24:14] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-01-12 15:24:14,102 - INFO - 127.0.0.1 - - [12/Jan/2026 15:24:14] "GET / HTTP/1.1" 200 -
+2026-01-12 15:24:41,306 - INFO - 127.0.0.1 - - [12/Jan/2026 15:24:41] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:24:41,320 - INFO - 127.0.0.1 - - [12/Jan/2026 15:24:41] "GET / HTTP/1.1" 200 -
+2026-01-12 15:24:53,787 - INFO - Loading vector store for context
+2026-01-12 15:24:53,790 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:24:53,791 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:24:53,971 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:24:53,971 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:25:02,078 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:25:02,078 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:25:06,213 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:25:08,587 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:25:08,594 - INFO - Successfully created the QA chain
+2026-01-12 15:25:11,398 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:25:11,497 - INFO - 127.0.0.1 - - [12/Jan/2026 15:25:11] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:25:11,524 - INFO - 127.0.0.1 - - [12/Jan/2026 15:25:11] "GET / HTTP/1.1" 200 -
+2026-01-12 15:32:12,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.107.235.151:5000
+2026-01-12 15:32:12,973 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 15:34:53,111 - INFO - 127.0.0.1 - - [12/Jan/2026 15:34:53] "GET / HTTP/1.1" 200 -
+2026-01-12 15:34:53,321 - INFO - 127.0.0.1 - - [12/Jan/2026 15:34:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-12 15:35:29,885 - INFO - 127.0.0.1 - - [12/Jan/2026 15:35:29] "GET / HTTP/1.1" 200 -
+2026-01-12 15:35:32,669 - INFO - 127.0.0.1 - - [12/Jan/2026 15:35:32] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-01-12 15:35:32,683 - INFO - 127.0.0.1 - - [12/Jan/2026 15:35:32] "GET / HTTP/1.1" 200 -
+2026-01-12 15:35:39,495 - INFO - 127.0.0.1 - - [12/Jan/2026 15:35:39] "GET / HTTP/1.1" 200 -
+2026-01-12 15:35:39,776 - INFO - 127.0.0.1 - - [12/Jan/2026 15:35:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-12 15:36:09,610 - INFO - Loading vector store for context
+2026-01-12 15:36:09,611 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:36:09,611 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:36:23,684 - INFO - 127.0.0.1 - - [12/Jan/2026 15:36:23] "GET / HTTP/1.1" 200 -
+2026-01-12 15:36:40,126 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:36:40,126 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:36:48,268 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:36:48,268 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:36:48,327 - INFO - Loading faiss with AVX512 support.
+2026-01-12 15:36:48,328 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-01-12 15:36:48,328 - INFO - Loading faiss with AVX2 support.
+2026-01-12 15:36:50,030 - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-12 15:36:50,286 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:36:53,255 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:36:53,281 - INFO - Successfully created the QA chain
+2026-01-12 15:36:55,353 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:36:55,513 - INFO - 127.0.0.1 - - [12/Jan/2026 15:36:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:36:55,525 - INFO - 127.0.0.1 - - [12/Jan/2026 15:36:55] "GET / HTTP/1.1" 200 -
+2026-01-12 15:37:09,220 - INFO - Loading vector store for context
+2026-01-12 15:37:09,220 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:37:09,220 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:37:09,224 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:37:09,225 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:37:15,545 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:37:15,546 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:37:15,693 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:37:17,767 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:37:17,768 - INFO - Successfully created the QA chain
+2026-01-12 15:37:18,159 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:37:18,174 - INFO - 127.0.0.1 - - [12/Jan/2026 15:37:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:37:18,185 - INFO - 127.0.0.1 - - [12/Jan/2026 15:37:18] "GET / HTTP/1.1" 200 -
+2026-01-12 15:37:45,029 - INFO - Loading vector store for context
+2026-01-12 15:37:45,030 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:37:45,030 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:37:45,037 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:37:45,037 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:37:51,138 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:37:51,138 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:37:51,246 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:37:53,168 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:37:53,170 - INFO - Successfully created the QA chain
+2026-01-12 15:37:53,691 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:37:53,706 - INFO - 127.0.0.1 - - [12/Jan/2026 15:37:53] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:37:53,720 - INFO - 127.0.0.1 - - [12/Jan/2026 15:37:53] "GET / HTTP/1.1" 200 -
+2026-01-12 15:38:22,371 - INFO - Loading vector store for context
+2026-01-12 15:38:22,371 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:38:22,372 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:38:22,374 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:38:22,375 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:38:27,961 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:38:27,961 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:38:28,540 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:38:31,024 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:38:31,026 - INFO - Successfully created the QA chain
+2026-01-12 15:38:31,949 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:38:31,964 - INFO - 127.0.0.1 - - [12/Jan/2026 15:38:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:38:31,978 - INFO - 127.0.0.1 - - [12/Jan/2026 15:38:31] "GET / HTTP/1.1" 200 -
+2026-01-12 15:39:25,554 - INFO - Loading vector store for context
+2026-01-12 15:39:25,554 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:39:25,555 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:39:25,559 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:39:25,559 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:39:31,451 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:39:31,451 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:39:31,553 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:39:33,442 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:39:33,443 - INFO - Successfully created the QA chain
+2026-01-12 15:39:33,842 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:39:33,855 - INFO - 127.0.0.1 - - [12/Jan/2026 15:39:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:39:33,868 - INFO - 127.0.0.1 - - [12/Jan/2026 15:39:33] "GET / HTTP/1.1" 200 -
+2026-01-12 15:42:43,845 - INFO - Loading vector store for context
+2026-01-12 15:42:43,846 - INFO - Loading FAISS vector store from disk.
+2026-01-12 15:42:43,846 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 15:42:43,852 - INFO - Use pytorch device_name: cpu
+2026-01-12 15:42:43,853 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 15:42:49,713 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 15:42:49,714 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 15:42:49,849 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 15:42:51,771 - INFO - LLM loaded successfully from Groq.
+2026-01-12 15:42:51,772 - INFO - Successfully created the QA chain
+2026-01-12 15:42:52,090 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 15:42:52,104 - INFO - 127.0.0.1 - - [12/Jan/2026 15:42:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 15:42:52,117 - INFO - 127.0.0.1 - - [12/Jan/2026 15:42:52] "GET / HTTP/1.1" 200 -
+2026-01-12 15:49:47,773 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.107.235.151:5000
+2026-01-12 15:49:47,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 15:50:07,893 - INFO - 127.0.0.1 - - [12/Jan/2026 15:50:07] "GET / HTTP/1.1" 200 -
+2026-01-12 16:44:47,746 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.107.235.151:5000
+2026-01-12 16:44:47,748 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 16:45:09,902 - INFO - 127.0.0.1 - - [12/Jan/2026 16:45:09] "GET / HTTP/1.1" 200 -
+2026-01-12 16:45:10,427 - INFO - 127.0.0.1 - - [12/Jan/2026 16:45:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-12 16:45:23,511 - INFO - Loading vector store for context
+2026-01-12 16:45:23,511 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:45:23,511 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:45:55,533 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:45:55,534 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:46:02,453 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:46:02,454 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:46:02,579 - INFO - Loading faiss with AVX512 support.
+2026-01-12 16:46:02,579 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-01-12 16:46:02,580 - INFO - Loading faiss with AVX2 support.
+2026-01-12 16:46:03,794 - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-12 16:46:04,165 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:46:07,362 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:46:07,419 - INFO - Successfully created the QA chain
+2026-01-12 16:46:09,798 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:46:09,919 - INFO - 127.0.0.1 - - [12/Jan/2026 16:46:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:46:09,934 - INFO - 127.0.0.1 - - [12/Jan/2026 16:46:09] "GET / HTTP/1.1" 200 -
+2026-01-12 16:46:42,847 - INFO - Loading vector store for context
+2026-01-12 16:46:42,858 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:46:42,858 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:46:42,861 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:46:42,861 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:46:48,103 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:46:48,103 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:46:48,401 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:46:49,569 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:46:49,570 - INFO - Successfully created the QA chain
+2026-01-12 16:46:49,934 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:46:49,945 - INFO - 127.0.0.1 - - [12/Jan/2026 16:46:49] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:46:49,954 - INFO - 127.0.0.1 - - [12/Jan/2026 16:46:49] "GET / HTTP/1.1" 200 -
+2026-01-12 16:47:07,217 - INFO - Loading vector store for context
+2026-01-12 16:47:07,217 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:47:07,217 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:47:07,220 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:47:07,220 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:47:11,860 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:47:11,860 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:47:11,932 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:47:13,164 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:47:13,165 - INFO - Successfully created the QA chain
+2026-01-12 16:47:13,604 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:47:13,614 - INFO - 127.0.0.1 - - [12/Jan/2026 16:47:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:47:13,626 - INFO - 127.0.0.1 - - [12/Jan/2026 16:47:13] "GET / HTTP/1.1" 200 -
+2026-01-12 16:47:29,174 - INFO - Loading vector store for context
+2026-01-12 16:47:29,175 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:47:29,175 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:47:29,179 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:47:29,179 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:47:34,079 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:47:34,079 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:47:34,582 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:47:35,958 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:47:35,959 - INFO - Successfully created the QA chain
+2026-01-12 16:47:36,656 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:47:36,670 - INFO - 127.0.0.1 - - [12/Jan/2026 16:47:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:47:36,679 - INFO - 127.0.0.1 - - [12/Jan/2026 16:47:36] "GET / HTTP/1.1" 200 -
+2026-01-12 16:48:22,531 - INFO - 127.0.0.1 - - [12/Jan/2026 16:48:22] "GET / HTTP/1.1" 200 -
+2026-01-12 16:48:25,566 - INFO - 127.0.0.1 - - [12/Jan/2026 16:48:25] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-01-12 16:48:25,574 - INFO - 127.0.0.1 - - [12/Jan/2026 16:48:25] "GET / HTTP/1.1" 200 -
+2026-01-12 16:50:11,976 - INFO - Loading vector store for context
+2026-01-12 16:50:11,980 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:50:11,982 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:50:12,020 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:50:12,020 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:50:17,727 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:50:17,727 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:50:18,061 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:50:19,109 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:50:19,117 - INFO - Successfully created the QA chain
+2026-01-12 16:50:19,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:50:19,679 - INFO - 127.0.0.1 - - [12/Jan/2026 16:50:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:50:19,695 - INFO - 127.0.0.1 - - [12/Jan/2026 16:50:19] "GET / HTTP/1.1" 200 -
+2026-01-12 16:51:09,326 - INFO - Loading vector store for context
+2026-01-12 16:51:09,327 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:51:09,328 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:51:09,331 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:51:09,331 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:51:13,938 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:51:13,939 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:51:14,167 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:51:14,865 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:51:14,865 - INFO - Successfully created the QA chain
+2026-01-12 16:51:15,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:51:15,310 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:51:15,321 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:15] "GET / HTTP/1.1" 200 -
+2026-01-12 16:51:32,949 - INFO - Loading vector store for context
+2026-01-12 16:51:32,950 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:51:32,950 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:51:32,953 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:51:32,954 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:51:37,085 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:51:37,085 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:51:37,163 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:51:38,079 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:51:38,080 - INFO - Successfully created the QA chain
+2026-01-12 16:51:38,611 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:51:38,623 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:51:38,631 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:38] "GET / HTTP/1.1" 200 -
+2026-01-12 16:51:52,365 - INFO - Loading vector store for context
+2026-01-12 16:51:52,365 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:51:52,365 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:51:52,367 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:51:52,367 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:51:57,357 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:51:57,358 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:51:57,426 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:51:58,226 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:51:58,227 - INFO - Successfully created the QA chain
+2026-01-12 16:51:58,583 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:51:58,595 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:51:58,602 - INFO - 127.0.0.1 - - [12/Jan/2026 16:51:58] "GET / HTTP/1.1" 200 -
+2026-01-12 16:52:31,837 - INFO - Loading vector store for context
+2026-01-12 16:52:31,837 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:52:31,837 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:52:31,841 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:52:31,842 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:52:36,165 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:52:36,165 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:52:36,221 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:52:37,031 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:52:37,031 - INFO - Successfully created the QA chain
+2026-01-12 16:52:37,263 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:52:37,269 - INFO - 127.0.0.1 - - [12/Jan/2026 16:52:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:52:37,279 - INFO - 127.0.0.1 - - [12/Jan/2026 16:52:37] "GET / HTTP/1.1" 200 -
+2026-01-12 16:54:25,191 - INFO - Loading vector store for context
+2026-01-12 16:54:25,191 - INFO - Loading FAISS vector store from disk.
+2026-01-12 16:54:25,191 - INFO - Initializing HuggingFace Embeddings.
+2026-01-12 16:54:25,194 - INFO - Use pytorch device_name: cpu
+2026-01-12 16:54:25,194 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 16:54:29,464 - INFO - HuggingFace Embeddings initialized successfully.
+2026-01-12 16:54:29,464 - INFO - FAISS database found at vectorstore/db_faiss. Loading...
+2026-01-12 16:54:29,540 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-01-12 16:54:30,321 - INFO - LLM loaded successfully from Groq.
+2026-01-12 16:54:30,321 - INFO - Successfully created the QA chain
+2026-01-12 16:54:30,649 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 16:54:30,661 - INFO - 127.0.0.1 - - [12/Jan/2026 16:54:30] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-12 16:54:30,671 - INFO - 127.0.0.1 - - [12/Jan/2026 16:54:30] "GET / HTTP/1.1" 200 -
